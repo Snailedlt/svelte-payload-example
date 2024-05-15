@@ -1,10 +1,10 @@
 import { postgresAdapter } from '@payloadcms/db-postgres'
 // import { payloadCloud } from '@payloadcms/plugin-cloud'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
-import path from 'path'
+import path from 'node:path'
 import { buildConfig } from 'payload/config'
 // import sharp from 'sharp'
-import { fileURLToPath } from 'url'
+import { fileURLToPath } from 'node:url'
 
 import { Users } from './collections/Users'
 
