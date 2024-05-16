@@ -1,5 +1,5 @@
 {
-  "name": "svelte-payload",
+  "name": "svelte-payload-example",
   "private": true,
   "scripts": {
     "build": "turbo build",
