@@ -9,7 +9,8 @@ let payloadInstance: BasePayload<GeneratedTypes>;
 
 export async function initializePayload() {
 	const __dirname = path.dirname(fileURLToPath(import.meta.url));
-	const payloadConfigPath = path.join(__dirname, '../../../cms/src/payload.config.ts');
+	const payloadConfigPath = path.join(__dirname, '../../../../../../cms/src/payload.config.ts');
+	console.log('payloadConfigPath', payloadConfigPath);
 	const awaitedConfig = await importConfig(payloadConfigPath);
 
 	payloadInstance = await getPayload({ config: awaitedConfig });
