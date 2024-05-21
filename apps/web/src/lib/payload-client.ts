@@ -17,7 +17,6 @@ export async function initializePayload() {
 		__dirname,
 		`${payloadConfigPathPrefix}../../../cms/src/payload.config.ts`
 	);
-	console.log('payloadConfigPath', payloadConfigPath);
 	const awaitedConfig = await importConfig(payloadConfigPath);
 
 	payloadInstance = await getPayload({ config: awaitedConfig });
