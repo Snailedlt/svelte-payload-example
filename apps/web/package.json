@@ -13,7 +13,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-vercel": "^5.3.0",
 		"@sveltejs/kit": "^2.5.7",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^8.56.0",
@@ -36,7 +36,6 @@
 		"@payloadcms/next": "beta",
 		"@payloadcms/plugin-cloud": "beta",
 		"@payloadcms/richtext-lexical": "beta",
-		"@sveltejs/adapter-vercel": "^5.3.0",
 		"cross-env": "^7.0.3",
 		"dotenv": "^16.4.5",
 		"graphql": "^16.8.1",
