@@ -32,6 +32,9 @@ importers:
       '@payloadcms/richtext-lexical':
         specifier: beta
         version: 3.0.0-beta.34(@faceless-ui/modal@2.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@lexical/headless@0.14.5)(@lexical/link@0.14.5)(@lexical/list@0.14.5)(@lexical/mark@0.14.5)(@lexical/markdown@0.14.5)(@lexical/react@0.14.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(yjs@13.6.15))(@lexical/rich-text@0.14.5)(@lexical/selection@0.14.5)(@lexical/utils@0.14.5)(@payloadcms/next@3.0.0-beta.34(@types/react@18.2.64)(graphql@16.8.1)(monaco-editor@0.48.0)(next@14.3.0-canary.28(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.77.1))(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(scheduler@0.23.2)(typescript@5.4.2))(@payloadcms/translations@3.0.0-beta.34)(@payloadcms/ui@3.0.0-beta.34(@types/react@18.2.64)(monaco-editor@0.48.0)(next@14.3.0-canary.28(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.77.1))(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(scheduler@0.23.2))(lexical@0.14.5)(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@swc/core':
+        specifier: ^1.5.7
+        version: 1.5.7(@swc/helpers@0.5.11)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -87,6 +90,9 @@ importers:
       '@payloadcms/richtext-lexical':
         specifier: beta
         version: 3.0.0-beta.34(@faceless-ui/modal@2.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@lexical/headless@0.14.5)(@lexical/link@0.14.5)(@lexical/list@0.14.5)(@lexical/mark@0.14.5)(@lexical/markdown@0.14.5)(@lexical/react@0.14.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(yjs@13.6.15))(@lexical/rich-text@0.14.5)(@lexical/selection@0.14.5)(@lexical/utils@0.14.5)(@payloadcms/next@3.0.0-beta.34(@types/react@18.2.64)(graphql@16.8.1)(monaco-editor@0.48.0)(next@14.3.0-canary.28(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.77.1))(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(scheduler@0.23.2)(typescript@5.4.2))(@payloadcms/translations@3.0.0-beta.34)(@payloadcms/ui@3.0.0-beta.34(@types/react@18.2.64)(monaco-editor@0.48.0)(next@14.3.0-canary.28(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.77.1))(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(scheduler@0.23.2))(lexical@0.14.5)(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@swc/core':
+        specifier: ^1.5.7
+        version: 1.5.7(@swc/helpers@0.5.11)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
