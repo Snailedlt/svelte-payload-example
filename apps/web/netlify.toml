@@ -1,4 +1,4 @@
 [build]
     base = "/"
 	command = "pnpm build --filter web"
-	publish = "build"
+	publish = "apps/web/.svelte-kit"
