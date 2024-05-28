@@ -90,6 +90,9 @@ importers:
       '@payloadcms/richtext-lexical':
         specifier: beta
         version: 3.0.0-beta.34(@faceless-ui/modal@2.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@lexical/headless@0.14.5)(@lexical/link@0.14.5)(@lexical/list@0.14.5)(@lexical/mark@0.14.5)(@lexical/markdown@0.14.5)(@lexical/react@0.14.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(yjs@13.6.15))(@lexical/rich-text@0.14.5)(@lexical/selection@0.14.5)(@lexical/utils@0.14.5)(@payloadcms/next@3.0.0-beta.34(@types/react@18.2.64)(graphql@16.8.1)(monaco-editor@0.48.0)(next@14.3.0-canary.28(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.77.1))(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(scheduler@0.23.2)(typescript@5.4.2))(@payloadcms/translations@3.0.0-beta.34)(@payloadcms/ui@3.0.0-beta.34(@types/react@18.2.64)(monaco-editor@0.48.0)(next@14.3.0-canary.28(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.77.1))(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(scheduler@0.23.2))(lexical@0.14.5)(payload@3.0.0-beta.34(@swc/core@1.5.7(@swc/helpers@0.5.11))(@swc/types@0.1.7)(graphql@16.8.1)(typescript@5.4.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@sveltejs/adapter-netlify':
+        specifier: ^4.2.0
+        version: 4.2.0(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.0.0(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1)))(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1)))
       '@swc/core':
         specifier: ^1.5.7
         version: 1.5.7(@swc/helpers@0.5.11)
@@ -962,6 +965,9 @@ packages:
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
 
+  '@iarna/toml@2.2.5':
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+
   '@img/sharp-darwin-arm64@0.33.4':
     resolution: {integrity: sha512-p0suNqXufJs9t3RqLBO6vvrgr5OhgbWp76s5gTRvdmxmuv9E1rcaqGUsl3l4mKVmXPkTkTErXediAui4x+8PSA==}
     engines: {glibc: '>=2.26', node: ^18.17.0 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0', yarn: '>=3.2.0'}
@@ -1677,6 +1683,11 @@ packages:
   '@smithy/util-waiter@3.0.0':
     resolution: {integrity: sha512-+fEXJxGDLCoqRKVSmo0auGxaqbiCo+8oph+4auefYjaNxjOLKSY2MxVQfRzo65PaZv4fr+5lWg+au7vSuJJ/zw==}
     engines: {node: '>=16.0.0'}
+
+  '@sveltejs/adapter-netlify@4.2.0':
+    resolution: {integrity: sha512-pQhOZE4WFO72MeNCzR5K8l2HHM1KTB/XiJhTD6sVERHgwmSUtZ25gZFDdZM5JrWqwTMq7i7dIodh2MT6InujTg==}
+    peerDependencies:
+      '@sveltejs/kit': ^2.4.0
 
   '@sveltejs/adapter-vercel@5.3.0':
     resolution: {integrity: sha512-JzTJVmAWmbyNe3pQU2l0M1ggt4FjIVnKHEQOrqW4XVxYtNGdq3znuMqFSdzsR+5LaIEFqZaLIpm82XZsZroBoQ==}
@@ -5654,6 +5665,8 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
+  '@iarna/toml@2.2.5': {}
+
   '@img/sharp-darwin-arm64@0.33.4':
     optionalDependencies:
       '@img/sharp-libvips-darwin-arm64': 1.0.2
@@ -6598,6 +6611,13 @@ snapshots:
       '@smithy/abort-controller': 3.0.0
       '@smithy/types': 3.0.0
       tslib: 2.6.2
+
+  '@sveltejs/adapter-netlify@4.2.0(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.0.0(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1)))(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1)))':
+    dependencies:
+      '@iarna/toml': 2.2.5
+      '@sveltejs/kit': 2.5.7(@sveltejs/vite-plugin-svelte@3.0.0(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1)))(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1))
+      esbuild: 0.20.2
+      set-cookie-parser: 2.6.0
 
   '@sveltejs/adapter-vercel@5.3.0(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.0.0(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1)))(svelte@4.2.7)(vite@5.0.3(@types/node@20.11.25)(sass@1.77.1)))':
     dependencies:

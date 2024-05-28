@@ -36,6 +36,7 @@
 		"@payloadcms/next": "beta",
 		"@payloadcms/plugin-cloud": "beta",
 		"@payloadcms/richtext-lexical": "beta",
+		"@sveltejs/adapter-netlify": "^4.2.0",
 		"@swc/core": "^1.5.7",
 		"cross-env": "^7.0.3",
 		"dotenv": "^16.4.5",
