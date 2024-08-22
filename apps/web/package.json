@@ -33,18 +33,7 @@
 	},
 	"dependencies": {
 		"cms": "workspace:*",
-		"@payloadcms/db-postgres": "beta",
-		"@payloadcms/next": "beta",
-		"@payloadcms/plugin-cloud": "beta",
-		"@payloadcms/richtext-lexical": "beta",
-		"@swc/core": "^1.5.7",
-		"cross-env": "^7.0.3",
 		"dotenv": "^16.4.5",
-		"graphql": "^16.8.1",
-		"next": "14.3.0-canary.28",
-		"payload": "beta",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"sharp": "0.32.6"
+		"payload": "beta"
 	}
 }
