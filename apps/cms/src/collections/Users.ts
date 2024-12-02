@@ -14,6 +14,5 @@ export const Users: CollectionConfig = {
     create: () => false,
     delete: () => false,
     update: () => false,
-    read: () => true,
   },
 }
