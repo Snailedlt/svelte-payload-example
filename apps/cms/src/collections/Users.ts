@@ -13,7 +13,6 @@ export const Users: CollectionConfig = {
   access: {
     create: () => false,
     delete: () => false,
-    update: () => false,
-    read: () => true,
+    update: () => false
   },
 }
