@@ -4,7 +4,8 @@ This is an example repo showcasing how you can use Payload 3's localAPI in a Sve
 
 > [!WARNING]
 > This repo is still under construction, and might not work as expected
->
+> If you're looking for a more frequently updated repo I recommend taking a look at [turbo-payload](https://github.com/fusionary/turbo-payload), the svelte example there can be found [here](https://github.com/fusionary/turbo-payload/tree/main/apps/svelte)
+> 
 
 ## Hosting
 
